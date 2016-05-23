@@ -15,3 +15,5 @@ set(SOURCE_FILES
     src/string_parser.h)
 
 add_library(options ${SOURCE_FILES})
+
+target_include_directories(options PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
