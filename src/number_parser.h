@@ -7,6 +7,7 @@
 class NumberParser : public Parser {
 public:
     NumberParser(StringParser stringParser);
+    void setDefaultValue(int value);
     void parse();
     int getValue() const;
 

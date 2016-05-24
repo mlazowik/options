@@ -7,6 +7,7 @@
 class StringParser : public Parser {
 public:
     StringParser(char *raw);
+    void setDefaultValue(std::string value);
     void parse();
     std::string getValue() const;
 

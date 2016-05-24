@@ -8,6 +8,7 @@
 class BooleanParser : public Parser {
 public:
     BooleanParser(StringParser stringParser);
+    void setDefaultValue(bool value);
     void parse();
     bool getValue() const;
 

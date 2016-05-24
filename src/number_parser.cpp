@@ -5,6 +5,10 @@
 NumberParser::NumberParser(StringParser stringParser)
         : stringParser(stringParser) { }
 
+void NumberParser::setDefaultValue(int value) {
+    this->value = value;
+}
+
 void NumberParser::parse() {
     this->stringParser.parse();
 

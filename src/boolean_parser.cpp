@@ -3,6 +3,10 @@
 BooleanParser::BooleanParser(StringParser stringParser)
         : stringParser(stringParser) { }
 
+void BooleanParser::setDefaultValue(bool value) {
+    this->value = value;
+}
+
 void BooleanParser::parse() {
     this->stringParser.parse();
 
