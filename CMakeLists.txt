@@ -4,15 +4,15 @@ project(options)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
-    src/boolean_parser.cpp
-    src/boolean_parser.h
-    src/number_parser.cpp
-    src/number_parser.h
-    src/options.cpp
-    src/options.h
-    src/parser.h
-    src/string_parser.cpp
-    src/string_parser.h)
+        options/boolean_parser.cpp
+        options/boolean_parser.h
+        options/number_parser.cpp
+        options/number_parser.h
+        options/options.cpp
+        options/options.h
+        options/parser.h
+        options/string_parser.cpp
+        options/string_parser.h)
 
 add_library(options ${SOURCE_FILES})
 
