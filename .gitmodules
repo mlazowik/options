@@ -1,0 +1,3 @@
+[submodule "lib/string-utils"]
+	path = lib/string-utils
+	url = git@github.com:mlazowik/string-utils.git
